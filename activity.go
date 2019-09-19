@@ -56,7 +56,7 @@ func (a *Activity) Eval(ctx activity.Context) (done bool, err error) {
 		ctx.Logger().Infof("Error while dialing to wsHost: ", err)
 	}
 
-	textMessage := `{"body": {"_dest":"` + wsDestination + `", "text":"` + wsMessage + `"}, "seq": 1}`
+	textMessage := `{"body": {"_dest":"` + wsDestination + `", "text":"` + wsMessage + `"}}`
 
 	ctx.Logger().Infof("Preparing to send message: [%s]", textMessage)
 
