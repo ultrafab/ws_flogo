@@ -14,7 +14,7 @@ flogo install github.com/ultrafab/ws_flogo
 
 ### Flogo WEB
 ```bash
-flogo install https://github.com/ultrafab/ws_flogo
+https://github.com/ultrafab/ws_flogo
 ```
 
 ## Configuration
