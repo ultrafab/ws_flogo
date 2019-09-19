@@ -1,0 +1,35 @@
+{
+  "name": "flogo-ws",
+  "type": "flogo:activity",
+  "version": "0.1.0",
+  "title": "WS Activity",
+  "description": "Send WS message",
+  "homepage": "https://github.com/ultrafab/ws_flogo",
+  "settings": [
+    {
+      "name": "server",
+      "type": "string",
+      "required": true,
+      "description": "The ws server URL"
+    }
+  ],
+  "input": [
+    {
+      "name": "message",
+      "type": "string",
+      "description": "The message to send"
+    },
+    {
+      "name": "destination",
+      "type": "string",
+      "description": "The destination"
+    }
+  ],
+  "output": [
+    {
+      "name": "data",
+      "type": "object",
+      "description": "The data recieved"
+    }
+  ]
+}
